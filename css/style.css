@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+:root{
+    --primary-color:null;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+html{
+    font-size:62,5%;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color:var(--primary-color);
+}
+.wrapper{
+    width:50%;
+    height:fit-content;
+    
+    transform:translateY(30%);
+    margin:auto;
+    background-color:#fff;
+    padding:44px 55px;
+    border-radius:7px;
+    
+   
+}
+
+#text{
+    font-size:2rem;
+    font-weight:500;
+    color:var(--primary-color);
+    text-align:center;
+    clear: both;
+    
+    
+    
+}
+#quote-author{
+    font-weight:400;
+    font-size:1.2rem;
+    color:var(--primary-color);
+    padding:30px 0;
+    float:right;
+}
+.quote-link{
+    clear: both;
+    display:flex;
+    justify-content: space-between;
+}
+.icon{
+    width:40px;
+    height:38px;
+    border-radius:2px;
+    text-align: center;
+    
+    background-color:var(--primary-color);
+    color:#fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button#new-quote{
+    background-color:var(--primary-color);
+    color:#fff;
+    border:none;
+    border-radius:2px;
+    padding:10px 14px;
+    font-size:1rem;
+    outline: none;
+    
+    
+}
+a:hover,
+button:hover{
+    opacity: 0.7;
+    cursor:pointer;
+}
